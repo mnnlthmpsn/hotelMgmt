@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+    @apply border border-[#CFCFCF] bg-[#F4F4F4] rounded-md w-full py-2.5 px-4 outline-none
+}
+
+.form-label {
+    @apply text-sm
+}
+
+.btn {
+    @apply py-3 font-semibold w-full bg-gray-200 text-sm text-white rounded-md border border-gray-200
+}
+
+.btn-primary {
+    @apply bg-[#0C1D44] border-[#0C1D44]
+}
